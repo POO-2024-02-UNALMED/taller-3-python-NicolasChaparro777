@@ -65,5 +65,6 @@ class TV:
             if self._volumen > 0:
                 self._volumen -= 1
     
+    @classmethod
     def setNumTV(self, nuevoNum):
         TV.__numTV = nuevoNum
