@@ -68,3 +68,7 @@ class TV:
     @classmethod
     def setNumTV(self, nuevoNum):
         TV.__numTV = nuevoNum
+    
+    @classmethod
+    def getNumTV(self):
+        return TV.__numTV
